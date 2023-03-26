@@ -2,7 +2,7 @@
 This repo includes the code, report, and presentation for the final project of the machine learning course at Skoltech. 
 
 
-=# VectorMapNet_code
+# VectorMapNet_code
 **VectorMapNet: End-to-end Vectorized HD Map Learning**
 
 This is the official codebase of VectorMapNet
