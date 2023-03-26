@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+    vectormapnet:
+        image: ${ARCH}/vectormapnet:${TAG}
+        build:
+            context: ${PRODUCTION_PATH}
+            dockerfile: Dockerfile
+        container_name: vectormapnet
+        volumes:
+            - type: bind
+              source: ${PRODUCTION_PATH}/..
+              target: /Fork_VectorMapNet_code
+        command: bash -c "sleep ${POST_BUILD_SLEEP};"
+
