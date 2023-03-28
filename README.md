@@ -1,5 +1,6 @@
 # ML2023_Project_Team34_VectorMapNetImplementation
-This repo includes the code, report, and presentation for the final project of the machine learning course at Skoltech. 
+This repo includes the code, report, and presentation for the final project of the machine learning course at Skoltech. It also includes a colab for the Map_merge algorithm that's still under developing. 
+
 The results are shown for the main code using their checkpoint and our implementation for it. 
 
 
